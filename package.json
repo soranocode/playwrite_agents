@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test tests"
+    "test": "playwright test tests",
+    "test:ui": "playwright test tests --ui --ui-host=127.0.0.1",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/soranocode/playwrite_agents#readme",
   "devDependencies": {
-    "@playwright/test": "^1.65.0"
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
   }
 }

@@ -21,6 +21,6 @@ test.describe('Создание заказа и обработка статус�
     await page.getByRole('button', { name: 'Закрыть', exact: true }).click();
     await expect(page.getByRole('dialog')).toBeHidden();
     await store.expectRecovered();
-    expect(store.orders).toHaveLength(0);
+    await store.expectOrder(0);
   });
 });

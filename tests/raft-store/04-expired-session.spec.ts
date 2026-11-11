@@ -8,12 +8,17 @@ test.describe('Создание заказа и обработка статус�
     store.respondWith({ status: 401, body: { detail: 'Not Authenticated' } });
     await store.open();
     await store.login();
-    const reloaded = page.waitForEvent('framenavigated', frame => frame === page.mainFrame());
-    await store.buyButton().click();
-    await reloaded;
+    await Promise.all([
+      page.waitForEvent('framenavigated', frame => frame === page.mainFrame()),
+      store.buyButton().click(),
+    ]);
+    // framenavigated marks document commit; module scripts may still be loading.
+    // Wait for the new document before starting the UI assertion timeout.
+    await page.waitForLoadState('domcontentloaded');
     await expect.poll(() => store.sessionClears).toBe(1);
 
     // 2. После reload покупка снова требует входа и не создаёт второй заказ.
+    await store.waitForCatalog();
     await expect(store.buyButton()).toBeEnabled();
     await store.buyButton().click();
     await expect(page.getByPlaceholder('Введите идентификатор пользователя')).toBeVisible();

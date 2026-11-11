@@ -7,9 +7,11 @@ test.describe('Создание заказа и обработка статус�
     // 1. После mock входа оборвать POST orders до отправки в backend.
     store.respondWith({ abort: true });
     await store.open();
-    const failed = page.waitForEvent('requestfailed', request => request.url().endsWith('/orders'));
-    await store.buyAsGuest();
-    expect((await failed).failure()?.errorText).toContain('ERR_CONNECTION_FAILED');
+    const [failed] = await Promise.all([
+      page.waitForEvent('requestfailed', request => request.method() === 'POST' && new URL(request.url()).pathname.endsWith('/orders')),
+      store.buyAsGuest(),
+    ]);
+    expect(failed.failure()?.errorText).toContain('ERR_CONNECTION_FAILED');
 
     // 2. Ошибка видна, магазин доступен, checkout не открыт и повторного заказа нет.
     await expect(page.locator('[data-sonner-toast]')).toContainText('Что-то пошло не так. Попробуйте, пожалуйста, позже.');
