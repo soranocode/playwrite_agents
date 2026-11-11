@@ -1,0 +1,22 @@
+{
+  "name": "playwrite_agents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soranocode/playwrite_agents.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/soranocode/playwrite_agents/issues"
+  },
+  "homepage": "https://github.com/soranocode/playwrite_agents#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
