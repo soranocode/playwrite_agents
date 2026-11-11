@@ -1,0 +1,102 @@
+[
+  {
+    "type": "home",
+    "visible": true,
+    "name": null,
+    "icon": null,
+    "custom_icon_url": null,
+    "slug": null,
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "store",
+    "visible": true,
+    "name": null,
+    "icon": null,
+    "custom_icon_url": null,
+    "slug": null,
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "page",
+    "visible": true,
+    "name": "Ежедневные награды",
+    "icon": "calendar",
+    "custom_icon_url": null,
+    "slug": "daily-rewards",
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "page",
+    "visible": true,
+    "name": "Программа лояльности",
+    "icon": "gift",
+    "custom_icon_url": null,
+    "slug": "loyalty-program",
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "redeem_code",
+    "visible": true,
+    "name": null,
+    "icon": null,
+    "custom_icon_url": null,
+    "slug": null,
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "news",
+    "visible": true,
+    "name": null,
+    "icon": null,
+    "custom_icon_url": null,
+    "slug": null,
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "updates",
+    "visible": true,
+    "name": null,
+    "icon": null,
+    "custom_icon_url": null,
+    "slug": null,
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "achievement",
+    "visible": true,
+    "name": null,
+    "icon": null,
+    "custom_icon_url": null,
+    "slug": null,
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "page",
+    "visible": true,
+    "name": "Руководства",
+    "icon": "forum",
+    "custom_icon_url": null,
+    "slug": "guides",
+    "custom_name": null,
+    "custom_url": null
+  },
+  {
+    "type": "page",
+    "visible": true,
+    "name": "О нас",
+    "icon": "about",
+    "custom_icon_url": null,
+    "slug": "about",
+    "custom_name": null,
+    "custom_url": null
+  }
+]

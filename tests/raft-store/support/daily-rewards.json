@@ -1,0 +1,182 @@
+{
+  "name": "Ежедневные награды",
+  "description": "<p><span style=\"white-space: pre-wrap;\">Посещайте игровой хаб каждый день и забирайте свои подарки</span></p>",
+  "image_url": "https://static-platform.aghanim.com/hub/8b/95/ca/88/8b95ca88-624f-4558-872d-387359f9f413.webp",
+  "daily_rewards": [
+    {
+      "day_number": 1,
+      "items": [
+        {
+          "id": "itm_eDZiHwFYshj",
+          "name": "4 Консервы",
+          "description": "Очень питательные и сытные бобы",
+          "duration": null,
+          "quantity": 1,
+          "is_stackable": false,
+          "icon_url": "https://static-platform.aghanim.com/sku/4b/9b/ce/b2/4b9bceb2-a657-4147-86a7-ab4d620f4a19.webp",
+          "image_url": "https://static-platform.aghanim.com/sku/1f4591ff-8d6a-4472-a77e-52a018f25776.webp",
+          "type": "item",
+          "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+          "properties": [],
+          "archived_at": null,
+          "nested_items_read": null,
+          "highlights": null,
+          "display_options": null
+        }
+      ],
+      "state": "locked",
+      "available_in": null
+    },
+    {
+      "day_number": 2,
+      "items": [
+        {
+          "id": "itm_eDZjaBJllTT",
+          "name": "Пистолет",
+          "description": "Более продвинутая версия самопала, идеально подходит для быстрых боёв",
+          "duration": null,
+          "quantity": 1,
+          "is_stackable": false,
+          "icon_url": null,
+          "image_url": "https://static-platform.aghanim.com/sku/dec1df41-0ad6-473e-8c3e-7a1ced80ff94.webp",
+          "type": "item",
+          "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+          "properties": [],
+          "archived_at": null,
+          "nested_items_read": null,
+          "highlights": null,
+          "display_options": null
+        }
+      ],
+      "state": "locked",
+      "available_in": null
+    },
+    {
+      "day_number": 3,
+      "items": [
+        {
+          "id": "itm_eDZjcjiSCAs",
+          "name": "Боевая броня",
+          "description": "Отличная боевая броня с железными вставками и прошитой тканью",
+          "duration": null,
+          "quantity": 1,
+          "is_stackable": false,
+          "icon_url": null,
+          "image_url": "https://static-platform.aghanim.com/sku/3673e17b-db2a-4a8a-9965-cfe71e441801.webp",
+          "type": "item",
+          "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+          "properties": [],
+          "archived_at": null,
+          "nested_items_read": null,
+          "highlights": null,
+          "display_options": null
+        }
+      ],
+      "state": "locked",
+      "available_in": null
+    },
+    {
+      "day_number": 4,
+      "items": [
+        {
+          "id": "itm_eDZiOCvqCKY",
+          "name": "3 Отмычки",
+          "description": "Простой инструмент для вскрытия замков",
+          "duration": null,
+          "quantity": 1,
+          "is_stackable": false,
+          "icon_url": null,
+          "image_url": "https://static-platform.aghanim.com/sku/1a1b0544-3e4d-4851-a8ed-c9850fcb59e7.webp",
+          "type": "item",
+          "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+          "properties": [],
+          "archived_at": null,
+          "nested_items_read": null,
+          "highlights": null,
+          "display_options": null
+        }
+      ],
+      "state": "locked",
+      "available_in": null
+    },
+    {
+      "day_number": 5,
+      "items": [
+        {
+          "id": "itm_eDZiXnncwCz",
+          "name": "3 Аптечки",
+          "description": "Аптечка, собранная из бинтов и бальзама, прекрасно восстанавливает здоровье.",
+          "duration": null,
+          "quantity": 1,
+          "is_stackable": false,
+          "icon_url": null,
+          "image_url": "https://static-platform.aghanim.com/sku/bd94dd0d-feb6-4acd-911e-ebfafe812986.webp",
+          "type": "item",
+          "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+          "properties": [],
+          "archived_at": null,
+          "nested_items_read": null,
+          "highlights": null,
+          "display_options": null
+        }
+      ],
+      "state": "locked",
+      "available_in": null
+    },
+    {
+      "day_number": 6,
+      "items": [
+        {
+          "id": "itm_eDZkcOxGEhz",
+          "name": "30 Дублонов",
+          "description": "Они пригодятся в любой ситуации!",
+          "duration": null,
+          "quantity": 1,
+          "is_stackable": false,
+          "icon_url": null,
+          "image_url": "https://static-platform.aghanim.com/sku/de/a4/0a/1f/dea40a1f-128a-49d4-b08f-805369252fef.webp",
+          "type": "item",
+          "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+          "properties": [],
+          "archived_at": null,
+          "nested_items_read": null,
+          "highlights": null,
+          "display_options": null
+        }
+      ],
+      "state": "locked",
+      "available_in": null
+    }
+  ],
+  "extra_reward": {
+    "items": [
+      {
+        "id": "itm_eDZkgkXNidn",
+        "name": "Зазубренный крюк",
+        "description": "Позволяет ловить ресурсы, а зазубрины на спине наносят увеличенный урон",
+        "duration": null,
+        "quantity": 1,
+        "is_stackable": false,
+        "icon_url": null,
+        "image_url": "https://static-platform.aghanim.com/sku/0f4dbb8e-cb15-4e87-b578-70db6e261b9c.webp",
+        "type": "item",
+        "background_image_url": "https://static-platform.aghanim.com/sku/a8/39/bd/50/a839bd50-ea40-43b0-a4d8-5ab266e07131.webp",
+        "properties": [],
+        "archived_at": null,
+        "nested_items_read": null,
+        "highlights": null,
+        "display_options": null
+      }
+    ],
+    "state": "locked"
+  },
+  "claim_mode": "inline",
+  "grid_mode": "auto",
+  "grid_config": null,
+  "next_reward_at": null,
+  "next_reward_in": null,
+  "end_at": null,
+  "type": "basic",
+  "hidden_image_url": null,
+  "background_size": null
+}
